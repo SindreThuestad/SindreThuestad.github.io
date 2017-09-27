@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="test.css">
+            </head>
+
+    </head>
+    <body>
+        <div id="meny">
+                <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="mini.html">MINI</a></li>
+                        <li><a href="bmw.html">BMW</a></li>
+                        <li> <a href="royce.html">Rolls Royce</a></li>
+                        <li> <a href="bmwmr.html">BMW Motorrad</a></li>
+                        <li> <a class="active" href="contact.html">Register</a></li>
+                      </ul>
+        </div>
+        <div id="tittel">
+            <h1 style="text-align: center"> <b> Register </b> </h1>
+        </div>
+        <div id="innhold">
+            <form name="myForm" action="/action_page_post.php"
+            onsubmit="return validateForm()" method="post">
+
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.."> 
+
+              <label for"email"> Email </label>
+              <input type="text" id="email" name="email" placeholder="Your email.."> 
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="england">England</option>
+                <option value="germany">Germany</option>
+                <option value="norway">Norway</option>
+                <option value="sweeden">Sweden</option>
+                <option value="usa">USA</option>
+                <option value="sa">Saudi Arabia</option>
+                <option value="qatar">Qatar</option>
+                <option value="uae">United Arab Emirates</option>
+                <option value="china">China</option>
+                <option value="russia">Russia</option>
+                <option value="mexico">Mexico</option>
+                <option value="japan">Japan</option>
+                <option value="marocco">Marocco</option>
+              </select>
+            <label for="subscribe"> Sign up for The Vision Newsletter.</label>
+            <input type="radio" id="subscribe" name="subscribe">
+              <button type="button" onclick="alert('Registered')">Submit</button>
+            </form>
+          
+          </div>
+        <div id="bunn">
+        </div>
+        
+    </body>
+
+</html>

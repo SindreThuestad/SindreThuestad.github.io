@@ -1,0 +1,99 @@
+
+#meny {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 15%;
+    height: 85%;
+    background-color: pink
+
+    
+    }
+    
+    #tittel {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 15%;
+    background-color: yellow
+
+    }
+    
+    #innhold {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 85%;
+        height: 85%;
+        background-color:blue;
+    
+    }
+    
+    #bunn {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 15%;
+        background-color: red;
+
+        }
+
+
+   
+
+    button {
+        position: relative;
+        top: 0;
+        left: 0;
+        color: green;
+        border: 2px solid gray;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px rgba(80, 70, 90, 0.7);
+        outline: none;
+
+    }
+
+    button:hover {
+        background-color: blue;
+        color: white;
+        outline: none;
+        visibility: hidden;
+     
+        
+    }
+
+    button:active {
+        transform: translate(3px, 3px);
+        box-shadow: none;
+        outline: none;
+        
+    }
+
+    #innhold div {
+        background-image: url("hjerte.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 175px;
+        position: absolute;
+        left: 100px;
+        bottom: 250px;
+        transition: 0.2s;
+        animation-name: hjerte;
+        animation-duration: 0.4s;
+        animation-delay: 1s;
+        animation-iteration-count: 3;
+    }
+
+ @keyframes hjerte {
+     0% {left: 100px; bottom: 250px;}
+     98% {background-size:contain; width: 175px; height: 150px;}
+     100% {animation-delay: 2s;}
+
+ }
+
+
+
+    

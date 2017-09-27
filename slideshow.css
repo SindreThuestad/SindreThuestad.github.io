@@ -1,0 +1,30 @@
+:root {
+    --slideshow-bg: green;
+
+}
+
+#slideshow {
+    background: url("12345.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 2em;
+    top: 2em;
+    width: calc(100% - 4em);
+    height: calc(100% - 8em);
+    border: 5px solid grey;
+    border-radius: 2em;
+    background-color: var(--slideshow-bg);
+    background-position-x: center;
+    background-position-y: center;
+    animation: slideshow 8s infinite;
+
+    }
+
+    @keyframes slideshow {
+        0% {background-image:  url("12345.jpg")}
+        33% {background-image:  url("bmwmr2.jpg")}
+        67% {background-image:  url("bmwmr3.jpg")}
+        100% {background-image:  url("12345.jpg")}
+        
+    }

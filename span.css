@@ -1,0 +1,15 @@
+div:nth-child(2) {
+    color: red;
+}
+
+div div  ::first-letter{
+    padding-right: 5px;
+    color: green;
+    font-size: 2em;
+    font-family: Alex Brush;
+}
+
+@font-face {
+    font-family: Alex Brush;
+    src: url(alex-brush.zip)
+}
