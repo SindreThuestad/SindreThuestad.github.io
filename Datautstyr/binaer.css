@@ -71,23 +71,17 @@
  
      
     table {
-    border: solid 2px lightgray;
-    border-collapse: collapse;
+        position: relative;
+        left: 0;
+        display: table;
+        border: 2px solid black;
+        border-collapse: separate;
+        border-spacing: 5px;
+        border-color: rgb(0, 0, 0);
     }
      
-    th,td {
-    padding-left:5px;
-    }
-    th {
-    background: paleturquoise;
-    }
-     
-    tr:nth-child(odd) {
-    background: rgba(100,10,10,0.2);
-    }
-     
-    td:nth-child(odd) {
-    background: rgba(49, 165, 165, 0.20);
+    td {
+        border: 1px solid white;
     }
 
     h1 {
@@ -138,10 +132,11 @@
 
     .bin {
         background-color:  #006EFF;
-        position: relative;
+        position: absolute;
         width: 31%;
         height: 100%;
         left: 0;
+        padding: 2px;
     }
 
     .hex {
@@ -162,4 +157,10 @@
         right: 0;
         top: 0;
 
+    }
+
+    h2 {
+        text-align: center;
+        position: relative;
+        top: 0;
     }
