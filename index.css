@@ -46,3 +46,60 @@ h4 {
 a {
     text-decoration: none;
 }
+
+.button1 {
+    position: absolute;
+    bottom: 9%;
+    right: 3%;
+    display: inline-block;
+    outline: 0;
+    padding: 3px 6px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 15px;
+    border: 1px solid #000000;
+    font-family: Verdana,sans-serif;
+    background-color: red;
+}
+
+.button1:hover {
+    color: #000!important;
+    background-color: #fff!important;
+    box-shadow: 5px 5px 2.5px #888888;
+
+}
+
+.button2 {
+    position: absolute;
+    bottom: 9%;
+    right: 82.5%;
+    display: inline-block;
+    outline: 0;
+    padding: 3px 6px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 15px;
+    border: 1px solid #000000;
+    font-family: Verdana,sans-serif;
+    background-color: red;
+
+}
+
+.button2:hover {
+    color: #000!important;
+    background-color: #fff!important;
+    box-shadow: 5px 5px 2.5px #888888;
+
+}
