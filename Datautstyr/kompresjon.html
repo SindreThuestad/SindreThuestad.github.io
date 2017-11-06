@@ -3,7 +3,7 @@
  
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="binaer.css">
+<link rel="stylesheet" href="minne.css">
 </head>
  
 <body>
@@ -12,28 +12,69 @@
         <li> <a href="index.html">Hjem</a></li>
         <li> <a href="binaer.html">Binærtall, Hex, Bits, Bytes</a></li>
         <li> <a href="transistor.html">Transistorer</a></li>
-        <li> <a href="lagring.html">Minne</a></li>
+        <li> <a href="lagring.html">CPU</a></li>
         <li> <a href="farger.html">Lagring</a></li>
-        <li> <a class="active" href="kompresjon.html">Bildeformater</a></li>
+        <li> <a class="active" href="kompresjon.html">Minne</a></li>
         <li> <a href="lyd.html">Lyd</a></li>
-        <li> <a href="video.html">Video</a></li>
-        <li> <a href="signaler.html">Signaler</a></li>
+        <li> <a href="video.html">Begreper</a></li>
+        <li> <a href="signaler.html">Bildeformater</a></li>
         <li> <a href="nettverk.html">Nettverk</a></li>
         </ul>
         </div>
 <div class="tittel">
-<h1>Binærtall</h1>
+<h1>Minne</h1>
 </div>
 <div id="innhold">
         <div class="bin">
-        Binærtall
+        <h2>Minne</h2>
+        <br>SRAM og DRAM
+        
+        <br>DRAM bruker en transistor og en kapasitator til å lagre en bit ( 0 eller 1).
+        <br>
+       <br> DRAM trenger stadig oppfrisking (en strømpuls) for å beholde den lagra verdien, men
+        <br>
+        <br>fordi DRAM bare bruker en transistor/bit kan DRAM ha større tetthet (bits / mm).
+        <br>
+         <br>
+        
+       <br> SRAM bruker 6 transistorer pr bit, men er enklere i drift (beholder verdiene så lenge strømmen er på)
+        <br>
+        <br>SRAM brukes mest i cache på CPU eller på små prosessorer som bare har noen kb med minne (slik som arduino).
+        <br>
+         <br>
+        
+        <br>Nyere teknologi som kan ta over for disse to er Z-RAM og A-RAM.
+        <br>
+         <br>
+        
+        <br>Hierarki av minne i datamaskinen
+        
+         
+        <PRE>
+        |  hastighet
+        
+        |     CPU-register
+        
+        |
+        
+        |
+        
+        |                      SRAM  (cache)
+        
+        |
+        
+        |
+        
+        |                                 DRAM  (main memory)
+        
+        |                                                           ssd
+        
+        |                                                                harddisk
+        
+        -----------------------------------------------------------------------> kapasitet
+    </PRE>
     </div>
-    <div class="hex">
-        Hex --> ASCII
-    </div>
-    <div class="tegnsett">
-        Tegnsetting
-    </div>
+   
 </div>
 <div id="bakgrunn">
 </div>
