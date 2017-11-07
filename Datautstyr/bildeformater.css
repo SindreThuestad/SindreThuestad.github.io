@@ -15,7 +15,7 @@
     
      
     .tittel {
-        color: #FFFFFF;
+        color: #fef0c0;
         text-align: center;
         font-size: 2.4em;
             position: absolute;
@@ -87,7 +87,7 @@
     h1 {
         position: relative;
         font-size: 1.5em;
-        top: -30px;
+        top: -30px;     
 
     }
 
@@ -146,3 +146,4 @@
         top: 0;
         left: 20px;
     }
+
