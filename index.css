@@ -41,6 +41,40 @@ ul li a {
     padding-right: 15px;
     min-width: 160px;
 }
+
+#main2 ul li a {
+
+    color: #ffffff;
+    background: #9f912a;
+    border: 1px solid transparent;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+    line-height: 10px;
+    letter-spacing: 0.5px;
+    font-family: "Arvo", Verdana, Arial, Helvetica, sans-serif;
+    font-size-adjust: 0.42;
+    font-weight: bold;
+    font-style: normal;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 160px;
+}
+
+#main2 ul li {
+    position: relative;
+    left: 1080px;
+    top: -116px;
+}
+
 ul li a:hover {
     color: #000!important;
     background-color: #fff!important;
@@ -148,3 +182,10 @@ h4 {
 
 }
 
+h5 {
+    color: white;
+    position: absolute;
+    right: 125px;
+    font-size: 1.15em;
+    top: 0;
+}
