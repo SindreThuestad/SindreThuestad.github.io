@@ -37,7 +37,7 @@ function setup() {
                     + `</ol>`;
                 divDyr.innerHTML = dyrliste;
 
-            } 
+            }
         });
     }
 
