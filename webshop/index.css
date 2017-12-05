@@ -1,0 +1,112 @@
+#head {
+    position: absolute;
+    width: 99%;
+    height: 20%;
+    background-color: red;
+}
+
+#left {
+    position: absolute;
+    width: 3.4%;
+    height: 97%;
+    left: 0;
+    background-color: red;
+}
+
+#right {
+    position: absolute;
+    width: 3.4%;
+    height: 97%;
+    right: 0;
+    background-color: red;
+}
+
+
+header {
+    color:whitesmoke;
+    font-size: 1.2em;
+    position: absolute;
+    left: 43vw;
+}
+
+.tekst {
+    position: absolute;
+    color: whitesmoke;
+    left: 40.5vw;
+    font-size: 1.1em;
+    top: 14vh;
+
+
+}
+
+#en {
+   position: absolute;
+   left: 10%;
+   width: 20vw;
+   height: 33vh;
+   top: 23%; 
+}
+
+#to {
+    position: absolute;
+    left: 40%;
+    width: 20vw;
+    height: 33vh;
+    top: 23%; 
+ }
+
+ #tre {
+    position: absolute;
+    left: 70%;
+    width: 20vw;
+    height: 33vh;
+    top: 23%; 
+ }
+
+ h2 {
+    position: relative;
+    text-align: center;
+    color: red;
+     
+ }
+
+ img {
+     position: relative;
+     padding-top: 6px;
+     left: 60px;
+ }
+
+ .to {
+    position: relative;
+    padding-top: 10px;
+    left: -120px;
+ }
+
+ .tre {
+    position: relative;
+    padding-top: 1px;
+    left: -45px;
+ }
+
+ table {
+     position: absolute;
+     bottom: 50px;
+     left: 44vw;
+ }
+
+ .line {
+     color: grey;
+     position: absolute;
+     bottom: 25px;
+     left: 44vw;
+ }
+
+ .button {
+     color: black;
+    position: absolute;
+    bottom: 10px;
+    left: 44vw;
+    border: solid black 2px;
+    display: block;
+    border-radius: 8px;
+ }

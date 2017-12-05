@@ -5,7 +5,7 @@
 
 
 header {
-    color: green;
+    color:green;
     font-size: 1.2em;
     padding: var(--fyll);
     padding-bottom: 20px;
@@ -17,11 +17,27 @@ article {
 }
 
 #liste {
-    width: 97vw;
+    width: 30vw;
     min-height: 50vh;
     border: 2px solid red;
+    padding: 1em;
 }
 
 .kunde {
+  background-color: whitesmoke;
+}   
+
+#dyr {
+    position: absolute;
+    top: 166px;
+    right: 20px;
+    width: 61vw;
+    min-height: 50vh;
+    border: 2px solid red;
+    padding: 1em;
+
+}
+
+.dyr {
     background-color: whitesmoke;
 }
