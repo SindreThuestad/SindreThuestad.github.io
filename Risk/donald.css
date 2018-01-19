@@ -1,0 +1,97 @@
+#main {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("roads.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+} 
+
+#walk {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: -10px;
+    top: 80px;
+    transform: scaleX(-1);
+    background-image: url("donald.png");
+    background-position-x: 0px;
+    background-position-y: 0px;
+    animation: legs 1000ms steps(6) infinite,
+               walk 15s linear;
+    animation-fill-mode: forwards;
+
+}
+
+#lys {
+    position: absolute;
+    width: 66px;
+    height: 183px;
+    left: 73vw;
+    top: 8vh;
+    transform: scaleX(-1);
+    background-image: url("lys3.png");
+    background-position-x: 0px;
+    background-position-y: 0px;
+    animation: lys 3s steps(3);
+    animation-fill-mode: forwards;
+ 
+
+}
+
+img {
+    position: absolute;
+    left: 81.5vw;
+    top: 7vh;
+    height: 200px;
+    width: 200px;
+}
+
+button {
+    position: absolute;
+    left: 85.7vw;
+    top: 15.5vh;
+    font-size: 22px;
+    border: 2px solid whitesmoke;
+    background-color: rgb(51, 51, 51);
+    color: whitesmoke;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: rgb(128, 255, 0);
+    color: rgb(0, 0, 0);
+}
+
+@keyframes lys {
+    0% { background-position-x: 0px; }
+    33% { background-position-x: 0px; }
+    33.1% { background-position-x: 66px; }
+    66.9% { background-position-x: 66px; }
+    67% { background-position-x: 132px; }
+    100% { background-position-x: 132px; }
+}
+
+@keyframes legs {
+    100% { background-position-x: -600px; }
+}
+
+@keyframes walk {
+    0% { left: -10px; top: 80px; background-position-y: 100px; }
+    30% { left: 687px; top: 80px; background-position-y: 100px; }
+    30.01% { left: 687px; top: 80px; background-position-y: 0px; }
+    40% { left: 687px; top: 304px; background-position-y: 0px;}
+    40.01% { left: 687px; top: 304px; background-position-y: 300px; }
+    60% { left: 170px; top: 304px; background-position-y: 300px; }
+    60.01% { left: 170px; top: 304px; background-position-y: 0px; }
+    70% { left: 170px; top: 515px; background-position-y: 0px; }
+    70.01% { left: 170px; top: 515px; background-position-y: 100px; }
+    100% { left: 860px; top: 515px; background-position-y: 100px; }
+    
+
+}
+
+

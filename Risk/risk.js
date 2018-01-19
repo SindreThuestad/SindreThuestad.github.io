@@ -1,11 +1,11 @@
 function setup() {
     var config = {
-        apiKey: "AIzaSyBlkpTpwxUqNmu2hmaQ-XX4Yn6nCSRxzv4",
-        authDomain: "risk-c19a0.firebaseapp.com",
-        databaseURL: "https://risk-c19a0.firebaseio.com",
-        projectId: "risk-c19a0",
-        storageBucket: "risk-c19a0.appspot.com",
-        messagingSenderId: "268154203384"
+        apiKey: "AIzaSyBlPjI5glXQ6ilEg9EVVPQS1lFh_Bsfa7c",
+        authDomain: "risk-b1fc9.firebaseapp.com",
+        databaseURL: "https://risk-b1fc9.firebaseio.com",
+        projectId: "risk-b1fc9",
+        storageBucket: "",
+        messagingSenderId: "217937368827"
       };
       firebase.initializeApp(config);
 
