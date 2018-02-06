@@ -1,0 +1,79 @@
+#stickman {
+    background-image: url("stickdude.jpg");
+    position: absolute;
+    left: 50px;
+    bottom: -40px;
+    width: 100px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#bil {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background-size: contain;
+    right: 0px;
+    bottom: 30px;
+    background-image: url("car1.jpg");
+    background-repeat: no-repeat;
+    animation: drive 3s ease-out forwards, carlift 2s 3s forwards, liftdown 2s 25s, driveout 3s 27s;
+
+}
+
+#loading {
+    position: absolute;
+    width: 40px;
+    height: 36px;
+    left: 500px;
+    top: 500px;
+    background-image: url("loading.png");
+    animation: loading 1000ms steps(61) infinite;
+    background-position-x: 0px;
+    background-position-y: 0px;
+
+
+}
+
+
+#lift {
+    position: absolute;
+    bottom: -270px;
+    left:  200px;;
+    width: 200px;
+    height: 300px;
+    background-image: url("1.png");
+    background-size: contain;
+    animation:  liftup 2s 3s forwards;
+    background-repeat: no-repeat;
+
+
+}
+
+@keyframes loading{
+    100% { background-position-x: -499px; }
+}
+
+@keyframes drive {
+    100% { bottom: 30px; right: 856px; }
+}
+
+@keyframes liftup {
+    0% { left: 200px; bottom: -270px;}
+    100% {  left: 200px; bottom: -130px;}
+}
+
+@keyframes carlift {
+    0% { left: 190px; bottom: 30px; background-image: url("car1.jpg") }
+    100% { left: 190px; bottom: 170px; background-image: url("car1.jpg") }
+
+}
+
+@keyframes liftdown {
+
+}
+
+@keyframes driveout {
+
+}
