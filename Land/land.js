@@ -1,12 +1,12 @@
 function setup() {
     // Initialize Firebase
     var config = {
-        apiKey: "AIzaSyDyhmY_QCkpcGPcni1vergvYirMSd9RiXI",
-        authDomain: "civcountries-af92c.firebaseapp.com",
-        databaseURL: "https://civcountries-af92c.firebaseio.com",
-        projectId: "civcountries-af92c",
-        storageBucket: "civcountries-af92c.appspot.com",
-        messagingSenderId: "1020878288720"
+        apiKey: "AIzaSyCDkdDqjHOZY4lJPTI8b0lmhy3iwi--FXQ",
+        authDomain: "webshop-5ac1b.firebaseapp.com",
+        databaseURL: "https://webshop-5ac1b.firebaseio.com",
+        projectId: "webshop-5ac1b",
+        storageBucket: "webshop-5ac1b.appspot.com",
+        messagingSenderId: "569467938325"
     };
     firebase.initializeApp(config);
     let divListe = document.getElementById("liste");
