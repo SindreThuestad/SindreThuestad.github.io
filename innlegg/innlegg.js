@@ -19,7 +19,6 @@ function setup() {
         <div>
         <h4>Innlegg nr: ${innleggnr}</h4>
         <ul>
-         
          <li>Melding: ${info.melding}
         </ul>
       </div>

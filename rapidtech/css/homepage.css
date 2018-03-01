@@ -1,0 +1,184 @@
+body {
+	background: #1b1b1b;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+h2 {
+	color: rgb(253, 54, 54);
+	position: absolute;
+	top: 14%;
+	left: 27.5vw;
+	font-family: Xolonium-Bold;
+
+
+}
+
+h1 {
+position: absolute;
+top: -6px;
+left: 20px;
+font-family: Astrolab;
+}
+
+#meny {
+	top: 0;
+	position: absolute;
+	width: 100%;
+	height: 10%;
+	background: black;
+	color: white;
+}
+
+ul {
+	z-index: 99;
+	position: relative;
+    padding-top: 20px;
+	margin: 0px;
+	list-style: none;
+
+}
+
+ul li {
+	position: relative;
+	left: 300px;
+	float: left;
+	width: 200px;
+	height: 40px;
+	background: black;
+	line-height: 40px;
+	text-align: center;
+	font-family: Astrolab;
+	margin-bottom: 5px;
+
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+ul li a:hover {
+	border-bottom: 5px solid rgb(253, 54, 54);
+}
+
+ul li ul li {
+	display: none;
+
+}
+
+ul li:hover ul li {
+	display: block;
+	position: relative;
+	left: -40px;
+	top: -10px;
+
+}
+
+.container {
+	margin: 0 auto;
+	margin-top: 180px;
+	position: relative;
+	width: 60%;
+	height: 0px;
+	padding-bottom: 35%;
+	background: #4c4c4c;
+	border: solid 10px black;
+}
+
+.slide_img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.slide_img img {
+	width: 100%;
+	height: 100%;
+
+}
+
+#i1, #i2, #i3 {
+	display: none;
+}
+
+.pre, .nxt {
+	width: 12%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background: rgba(88, 88, 88, .4);
+	z-index: 99;
+	cursor: pointer;
+}
+
+.pre {
+	left: 0;
+}
+
+.nxt {
+	right: 0;
+}
+
+.nav {
+	width: 100%;
+	height: 11px;
+	bottom: 12%;
+	position: absolute;
+	text-align: center;
+	z-index: 99;
+}
+
+.dots {
+	top: -5px;
+	width: 18px;
+	height: 18px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 50%;
+	display: inline-block;
+	background: rgba(0, 0, 0, .6)
+
+}
+
+.slide_img {
+	z-index: -1;
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three {
+	z-index: 9;
+}
+
+#i1:checked ~ .nav #dot1,
+#i2:checked ~ .nav #dot2,
+#i3:checked ~ .nav #dot3 {
+	background: #fff;
+}
+
+
+
+
+span {
+	color: rgb(253, 54, 54);
+}
+
+h2 span {
+	color: white;
+}
+
+
+@font-face {
+    font-family: Astrolab;
+    src: url("../fonts/Astrolab.ttf");
+}
+
+@font-face {
+    font-family: Xolonium-Bold;
+    src: url("../fonts/Xolonium-Bold.ttf");
+}
+
+/*funker ikke pga må ut av mappen og så til "fonts" mappen*/
