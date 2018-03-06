@@ -88,48 +88,50 @@ span {
     top: 200px;
     padding-left: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 200px;
     grid-auto-rows: minmax(50px, auto);
     grid-column-gap: 100px;
 }
 
 div h2 {
 	position: relative;
-	left: 19%;
+	left: 10%;
 	top: 100%;
-	font-family: Xolonium-Bold;
+    font-family: Xolonium-Bold;
+    z-index: 99;
 
 }
 
 #produkter div {
     position: relative;
-    width: 210px;
+    width: 200px;
     height: 150px;
-    background-image: url("../bilder/naga.jpg");
+    background-image: url("../bilder/pcgta.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0px;
+    left: 50px;
 }
 
 #produkter div:nth-child(2) {
-    background-image: url("../bilder/g903.jpg");
+    background-image: url("../bilder/ps4gta.jpg");
 }
 
 #produkter div:nth-child(3) {
-    background-image: url("../bilder/za13b.jpg");
+    background-image: url("../bilder/xboxgta.jpg");
 }
 
 #produkter div:nth-child(4) {
-    background-image: url("../bilder/m65.jpg");
+    background-image: url("../bilder/pcorigins.jpg");
 }
 
 #produkter div:nth-child(5) {
-    background-image: url("../bilder/abyssus.jpg");
+    background-image: url("../bilder/ps4origins.jpg");
 }
 
 #produkter div:nth-child(6) {
-    background-image: url("../bilder/gpromus.jpg");
+    background-image: url("../bilder/xboxorigins.jpg");
 }
 
 #produkter div:nth-child(7) {
@@ -158,36 +160,20 @@ div h2 {
 
 article img {
     position: absolute;
-    top: 14%;
-    left: 4vw;
+    top: 16%;
+    left: 10vw;
 }
 
 article img:nth-child(2) {
     position: absolute;
-    top: 14%;
-    left: 29vw;
+    top: 10%;
+    left: 41.5vw;
 }
 
 article img:nth-child(3) {
     position: absolute;
-    top: 15%;
-    left: 53vw;
+    top: 16%;
+    left: 73.2vw;
 }
 
-article img:nth-child(4) {
-    position: absolute;
-    top: 13%;
-    left: 77.5vw;
-}
 
-#produkter div:hover + #text {
-	display: block;
-	
-
-}
-
-#text {
-	background: red;
-	display: none;
-	
-}
