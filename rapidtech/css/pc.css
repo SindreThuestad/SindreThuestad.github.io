@@ -13,7 +13,7 @@ h1 {
 }
 
 #meny {
-	top: 0;
+    top: 0;
     position: absolute;
     width: 100%;
     height: 10%;
@@ -64,6 +64,7 @@ ul li:hover ul li {
     top: -10px;
 }
 
+
 span {
     color: rgb(253, 54, 54);
 }
@@ -89,109 +90,124 @@ span {
     top: 200px;
     padding-left: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 250px;
     grid-auto-rows: minmax(50px, auto);
     grid-column-gap: 100px;
 }
 
 div h2 {
-	position: relative;
-	left: 30%;
-	top: 100%;
-	font-family: Xolonium-Bold;
-
+    position: relative;
+    left: 40%;
+    top: 100%;
+    font-family: Xolonium-Bold;
+    z-index: 99;
 }
 
 #produkter div {
     position: relative;
-    width: 190px;
-    height: 150px;
-    background-image: url("../bilder/a20.jpg");
+    width: 400px;
+    height: 300px;
+    background-image: url("../bilder/kabinett1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0px;
+    left: -80px;
 }
 
 #produkter div:nth-child(2) {
-    background-image: url("../bilder/c1.jpg");
+    background-image: url("../bilder/kabinett2.jpg");
 }
 
 #produkter div:nth-child(3) {
-    background-image: url("../bilder/siberiav3.jpg");
+    background-image: url("../bilder/kabinett3.jpg");
 }
 
-#produkter div:nth-child(4) {
-    background-image: url("../bilder/revolver.jpg");
-}
-
-#produkter div:nth-child(5) {
-    background-image: url("../bilder/a40.jpg");
-}
-
-#produkter div:nth-child(6) {
-    background-image: url("../bilder/hs50.jpg");
-}
-
-#produkter div:nth-child(7) {
-    background-image: url("../bilder/arctis3.jpg");
-}
-
-#produkter div:nth-child(8) {
-    background-image: url("../bilder/flight.jpg");
-}
-
-#produkter div:nth-child(9) {
-    background-image: url("../bilder/a50.jpg");
-}
-
-#produkter div:nth-child(10) {
-    background-image: url("../bilder/hs60.jpg");
-}
-
-#produkter div:nth-child(11) {
-    background-image: url("../bilder/siberiat.jpg");
-}
-
-#produkter div:nth-child(12) {
-    background-image: url("../bilder/alpha.jpg");
-}
-
-article img {
+article h1 {
     position: absolute;
-    top: 14%;
-    left: 4vw;
+    top: 16%;
+    left: 2vw;
 }
 
-article img:nth-child(2) {
+article h1:nth-child(2) {
     position: absolute;
-    top: 14%;
-    left: 29vw;
+    top: 16%;
+    left: 35vw;
 }
 
-article img:nth-child(3) {
+article h1:nth-child(3) {
     position: absolute;
-    top: 15%;
-    left: 53vw;
+    top: 16%;
+    left: 75vw;
 }
 
-article img:nth-child(4) {
+#buttons {
     position: absolute;
-    top: 19%;
-    left: 77.5vw;
+    left: 70px;
+    top: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 200px;
+    grid-auto-rows: minmax(50px, auto);
+    grid-column-gap: 305px;
 }
 
-#produkter div:hover + #text {
-	display: block;
-	
+button {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(26, 24, 24);
+    border-radius: 8px;
+    color: white;
+    font-family: Xolonium-Bold;
+    font-size: 1.1em;
+}
+
+
+#specs1 {
+    position: absolute;
+    min-width: 300px;
+    min-height: 500px;
+    left: -3vw;
+    top: 10vh;
+
 
 }
 
-#text {
-	background: red;
-	display: none;
-	
+#specs2 {
+    position: absolute;
+    min-width: 300px;
+    min-height: 500px;
+    left: 33vw;
+    top: 10vh;
+
 }
+
+#specs3 {
+    position: absolute;
+    min-width: 300px;
+    min-height: 500px;
+    left: 70vw;
+    top: 10vh;
+
+}
+
+h3 {
+    position: relative;
+    left: 15%;
+    font-family: Xolonium-Bold;
+}
+
+h3 span {
+    color: rgb(253, 54, 54);
+}
+
+h3 span:nth-child(1) {
+    color: rgb(253, 54, 54);
+    text-decoration: underline;
+}
+
+
 
 #m2 img {
     position: absolute;

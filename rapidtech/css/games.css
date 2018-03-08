@@ -33,13 +33,14 @@ ul li {
     position: relative;
     left: 300px;
     float: left;
-    width: 200px;
+    width: 140px;
     height: 40px;
     background: black;
     line-height: 40px;
     text-align: center;
     font-family: Astrolab;
     margin-bottom: 5px;
+    font-size: 0.9em;
 }
 
 ul li a {
@@ -89,7 +90,7 @@ span {
     padding-left: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 200px;
+    grid-gap: 250px;
     grid-auto-rows: minmax(50px, auto);
     grid-column-gap: 100px;
 }
@@ -135,27 +136,27 @@ div h2 {
 }
 
 #produkter div:nth-child(7) {
-    background-image: url("../bilder/za13w.jpg");
+    background-image: url("../bilder/pcww2.jpg");
 }
 
 #produkter div:nth-child(8) {
-    background-image: url("../bilder/glaive.jpg");
+    background-image: url("../bilder/ps4ww2.jpg");
 }
 
 #produkter div:nth-child(9) {
-    background-image: url("../bilder/hex.jpg");
+    background-image: url("../bilder/xboxww2.jpg");
 }
 
 #produkter div:nth-child(10) {
-    background-image: url("../bilder/g402.jpg");
+    background-image: url("../bilder/fm18.jpg");
 }
 
 #produkter div:nth-child(11) {
-    background-image: url("../bilder/ec2-b.jpg");
+    background-image: url("../bilder/ps4fifa18.jpg");
 }
 
 #produkter div:nth-child(12) {
-    background-image: url("../bilder/scimitar.jpg");
+    background-image: url("../bilder/xboxfifa18.jpg");
 }
 
 article img {
@@ -177,3 +178,9 @@ article img:nth-child(3) {
 }
 
 
+#m2 img {
+    position: absolute;
+    top: 10px;
+    left: 92vw;
+
+}
