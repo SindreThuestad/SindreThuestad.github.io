@@ -1,5 +1,4 @@
-(function () {
-
+function setup() {
     var config = {
         apiKey: "AIzaSyDUChLfZSVKNoENHM0OUrBODgzCaefP7KU",
         authDomain: "rapidtech-bfde6.firebaseapp.com",
@@ -24,7 +23,8 @@
         const auth = firebase.auth();
         const promise = auth.signInWithEmailAndPassword(email,
         pass);
-        promise.catch(e => console.log(e.message));
+        promise
+        .catch(e => console.log(e.message));
     });
 
     btnSignUp.addEventListener('click', e => {
@@ -53,10 +53,7 @@
     });
 
 
-    qwdwqd
 
 
-
-
-}());
+};
 

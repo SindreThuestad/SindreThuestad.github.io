@@ -215,3 +215,8 @@ h3 span:nth-child(1) {
     left: 92vw;
 
 }
+
+h1 a {
+    text-decoration: none;
+    color: white;
+}

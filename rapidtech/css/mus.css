@@ -199,3 +199,73 @@ article img:nth-child(4) {
     left: 92vw;
 
 }
+
+#produkter a {
+    text-decoration: none;
+    color: black;
+}
+
+#produkter a:hover {
+    color: #fb2525;
+}
+
+#produkter div:nth-child(2):hover {
+    background: rgb(253, 54, 54);
+    background-image: url("../bilder/utsolgt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+}
+
+#produkter div:nth-child(3):hover {
+    background: rgb(253, 54, 54);
+    background-image: url("../bilder/utsolgt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+}
+
+#produkter div:nth-child(5):hover {
+    background: rgb(253, 54, 54);
+    background-image: url("../bilder/utsolgt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+}
+
+#produkter div:nth-child(7):hover {
+    background: rgb(253, 54, 54);
+    background-image: url("../bilder/utsolgt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+}
+
+#produkter div:nth-child(12):hover {
+    background: rgb(253, 54, 54);
+    background-image: url("../bilder/utsolgt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+}
+
+#produkter div:nth-child(4):hover {
+    background: rgb(253, 54, 54);
+    background-image: url("../bilder/utsolgt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+}
+
+#produkter div:nth-child(10):hover {
+    background: rgb(253, 54, 54);
+    background-image: url("../bilder/utsolgt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: white;
+}

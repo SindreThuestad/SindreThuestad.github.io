@@ -5,32 +5,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bruker</title>
+    <title>RapidTech</title>
     <link rel="stylesheet" href="../css/bruker.css">
-    <script src="../app.js"></script>
+    <link rel="stylesheet" href="../css/search.css">
+    <link rel="icon" href="../bilder/icon.png">
+    <script src="../js/app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
 </head>
 
 <body>
 
-    <div class="container">
-        <input id="txtEmail" type="email" placeholder="Email">
+    <div id="meny">
 
-        <input id="txtPassword" type="password" placeholder="Password">
+        <h1>
+                <a href="../index.html"><span>Rapid</span>Tech</a></h1>
+        <ul>
+            <li>
+                <a href="pc.html">Gaming PC</a>
+            </li>
+            <li>
+                <a href="gear.html">Utstyr</a>
+                <ul>
+                    <li>
+                        <a href="headset.html">Headset</a>
+                    </li>
+                    <li>
+                        <a href="tastatur.html">Tastatur</a>
+                    </li>
+                    <li>
+                        <a href="mus.html">Mus</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="games.html">Spill</a>
+            </li>
+            <li>
+                <a href="omoss.html">Om Oss </a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="search-box-wrapper">
+        <input type="text" placeholder="Search..." class="search-box-input">
+        <button class="search-box-button">&#128269; </button>
+    </div>
+
+    <div id="m2">
+        <a href="bruker.html">
+            <img src="../bilder/shoppingcart1.png" width="60px" height="50px">
+        </a>
+    </div>
+
+    <div class="container">
+        <img src="../bilder/avatar.png" class="avatar">
+        <h1>Logg inn her</h1>
+        <p>Email</p>
+        <input id="txtEmail" type="email" placeholder="Skriv inn Email..">
+        <p>Passord</p>
+        <input id="txtPassword" type="password" placeholder="Skriv inn Passord..">
 
         <button id="btnLogin" class="btn btn-action">
-            Log in
+            Logg inn
         </button>
 
         <button id="btnSignUp" class="btn btn-secondary">
-            Sign Up
+            Registrer
         </button>
 
         <button id="btnLogout" class="btn btn-action hide">
-            Log out
+            Logg ut
         </button>
     </div>
 
+    <script>
+        setup();
+    </script>
 
 </body>
 

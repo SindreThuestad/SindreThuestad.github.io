@@ -44,7 +44,7 @@ ul li {
 	position: relative;
 	left: 300px;
 	float: left;
-	width: 200px;
+	width: 140px;
 	height: 40px;
 	background: black;
 	line-height: 40px;
@@ -182,4 +182,15 @@ h2 span {
     src: url("../fonts/Xolonium-Bold.ttf");
 }
 
-/*funker ikke pga må ut av mappen og så til "fonts" mappen*/
+
+#m2 img {
+    position: absolute;
+    top: 10px;
+    left: 92vw;
+
+}
+
+h1 a {
+    text-decoration: none;
+    color: white;
+}
