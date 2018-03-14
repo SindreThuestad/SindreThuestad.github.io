@@ -159,6 +159,7 @@ div h2 {
     background-image: url("../bilder/xboxfifa18.jpg");
 }
 
+
 article img {
     position: absolute;
     top: 16%;
@@ -241,6 +242,7 @@ article img:nth-child(3) {
     background-position: center;
     background-size: 150px;
 }
+
 
 h1 a {
     text-decoration: none;

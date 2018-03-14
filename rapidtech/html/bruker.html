@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="../css/search.css">
     <link rel="icon" href="../bilder/icon.png">
     <script src="../js/app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+    <script src="../js/handlekurv.js"></script>
+    <script src="../js/buy.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
 </head>
 
 <body>
@@ -18,13 +20,15 @@
     <div id="meny">
 
         <h1>
-                <a href="../index.html"><span>Rapid</span>Tech</a></h1>
+            <a href="../index.html">
+                <span>Rapid</span>Tech</a>
+        </h1>
         <ul>
             <li>
                 <a href="pc.html">Gaming PC</a>
             </li>
             <li>
-                <a href="gear.html">Utstyr</a>
+                <a href="bruker.html">Utstyr</a>
                 <ul>
                     <li>
                         <a href="headset.html">Headset</a>
@@ -77,11 +81,63 @@
         <button id="btnLogout" class="btn btn-action hide">
             Logg ut
         </button>
+
     </div>
 
-    <script>
-        setup();
-    </script>
+    <header>
+        <h1>Handlekurv</h1>
+    </header>
+    <article>
+        <div id="liste" class="land">
+
+        </div>
+    </article>
+
+    <div id="main">
+        <div>
+            <form>
+                <div>
+                    <div>Bestillingsnr</div>
+                    <div>
+                        <input id="bestilling" type="text" placeholder="Skriv inn..">
+                    </div>
+                </div>
+                <div>
+                    <div>Sum</div>
+                    <div>
+                        <input id="region" type="text" placeholder="Skriv inn..">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <button data-priser="1001" type="button" id="lagreland">
+                            Kjøp</button>
+                    </div>
+                    <div></div>
+                </div>
+            </form>
+        </div>
+
+        <div id="show">Info om kjøp
+
+            <div id="merk">
+                <h6>
+                    <span>Merk!</span>
+                    På grunn av feil i kodingen, må kunden selv skrive inn bestillingsnummer (hva som helst) og summen av varene i handlekurven.
+                </h6>
+                <h6>
+                    <span>OBS!</span>
+                    Dersom kunden skriver feil sum med vilje ved kjøp av våre produkter, med en hensikt om å tjene på dette, kan kunden etter
+                    Straffeloven §325 d) straffes for grovt underslag. </h6>
+            </div>
+
+        </div>
+
+        <script>
+            setup();
+            handlekurv();
+            buy();
+        </script>
 
 </body>
 

@@ -4,8 +4,8 @@
     height: 350px;
     background: #000;
     color: #fff;
-    top: 50%;
-    left: 20%;
+    top: 58%;
+    left: 15%;
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
@@ -49,6 +49,11 @@
     height: 40px;
     color: #fff;
     font-size: 16px;
+}
+
+#main button {
+    position: relative;
+    top: 30px;
 }
 
 button {
@@ -165,3 +170,111 @@ h1 a {
     text-decoration: none;
     color: white;
 }
+
+:root {
+    --fyll:10px;
+}
+
+header {
+    position: absolute;
+    left: 33.9%;
+    top: 100px;
+    color:#fb2525;
+    font-size: 1em;
+    padding: var(--fyll);
+    padding-bottom: 20px;
+    font-family: Astrolab;
+
+}
+
+article {
+    position: absolute;
+    left: 33%;
+    top: 210px;
+    font-size: 1.1em;
+    padding: var(--fyll);
+}
+
+#liste {
+    width: 25vw;
+    min-height: 50vh;
+    border: 2px solid red;
+    padding: 1em;
+}
+
+.land {
+  background-color: whitesmoke;
+}
+
+#main form div {
+    width: 18em;
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    grid-gap: 1em;
+    margin: 2px;
+}
+
+#main form div div {
+    white-space: nowrap;
+}
+
+#main {
+    font-family: Xolonium-Bold;
+    font-size: 1.2em;
+    position: absolute;
+    left: 69%;
+    top: 30.5vh;
+    width: 30vw;
+}
+
+#main input {
+    position: relative;
+    left: -120px;
+    width: 115px;
+    font-family: Xolonium-Bold;
+}
+
+#merk {
+    position: absolute;
+    left: -220px;
+    top: 10vh;
+    width: 27vw;
+    height: 20vh;
+    color: black;
+    font-family: sans-serif;
+    line-height: 100%;
+    visibility: hidden;
+    text-align: left;
+    font-size: 1.3em;
+}
+
+#merk span {
+    color: black;
+    text-decoration: underline;
+}
+
+#show {
+    top: 13.2vh;
+    left: 220px;
+    color: white;
+    background-color: #fb2525;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 20px;
+    font-family: Xolonium-Bold;
+    line-height: 40px;
+}
+#show:hover #merk {
+    visibility: visible;
+}
+
+#show:hover {
+    cursor: none;
+    background: #ffc107;
+    color: #000;
+
+}
+

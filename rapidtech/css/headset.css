@@ -118,11 +118,11 @@ div h2 {
 }
 
 #produkter div:nth-child(3) {
-    background-image: url("../bilder/siberiav3.jpg");
+    background-image: url("../bilder/siberiat.jpg");
 }
 
 #produkter div:nth-child(4) {
-    background-image: url("../bilder/revolver.jpg");
+    background-image: url("../bilder/alpha.jpg");
 }
 
 #produkter div:nth-child(5) {
@@ -150,11 +150,11 @@ div h2 {
 }
 
 #produkter div:nth-child(11) {
-    background-image: url("../bilder/siberiat.jpg");
+    background-image: url("../bilder/siberiav3.jpg");
 }
 
 #produkter div:nth-child(12) {
-    background-image: url("../bilder/alpha.jpg");
+    background-image: url("../bilder/revolver.jpg");
 }
 
 article img {
@@ -209,21 +209,6 @@ article img:nth-child(4) {
     color: #fb2525;
 }
 
-#produkter div:nth-child(2):hover {
-    background: rgb(253, 54, 54);
-    background-image: url("../bilder/utsolgt.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 150px;
-}
-
-#produkter div:nth-child(3):hover {
-    background: rgb(253, 54, 54);
-    background-image: url("../bilder/utsolgt.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 150px;
-}
 
 #produkter div:nth-child(5):hover {
     background: rgb(253, 54, 54);
@@ -249,7 +234,7 @@ article img:nth-child(4) {
     background-size: 150px;
 }
 
-#produkter div:nth-child(4):hover {
+#produkter div:nth-child(6):hover {
     background: rgb(253, 54, 54);
     background-image: url("../bilder/utsolgt.png");
     background-repeat: no-repeat;
@@ -257,7 +242,32 @@ article img:nth-child(4) {
     background-size: 150px;
 }
 
+#produkter div:nth-child(8):hover {
+    background: rgb(253, 54, 54);
+    background-image: url("../bilder/utsolgt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+}
+
+#produkter div:nth-child(9):hover {
+    background: rgb(253, 54, 54);
+    background-image: url("../bilder/utsolgt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+}
+
+
 #produkter div:nth-child(10):hover {
+    background: rgb(253, 54, 54);
+    background-image: url("../bilder/utsolgt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+}
+
+#produkter div:nth-child(11):hover {
     background: rgb(253, 54, 54);
     background-image: url("../bilder/utsolgt.png");
     background-repeat: no-repeat;
