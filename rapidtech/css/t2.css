@@ -1,0 +1,167 @@
+#main form div {
+    width: 18em;
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    grid-gap: 1em;
+    margin: 2px;
+}
+
+#main form div div {
+    white-space: nowrap;
+}
+
+#main {
+    font-family: Xolonium-Bold;
+    font-size: 1.2em;
+    position: absolute;
+    left: 50px;
+    top: 78vh;
+    width: 49vw;
+}
+
+h1 {
+    position: absolute;
+    top: -6px;
+    left: 20px;
+    font-family: Astrolab;
+}
+
+#meny {
+	top: 0;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background: black;
+    color: white;
+    left: 0;
+}
+
+ul {
+    z-index: 99;
+    position: relative;
+    padding-top: 20px;
+    margin: 0px;
+    list-style: none;
+}
+
+ul li {
+    position: relative;
+    left: 300px;
+    float: left;
+    width: 140px;
+    height: 40px;
+    background: black;
+    line-height: 40px;
+    text-align: center;
+    font-family: Astrolab;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li a:hover {
+    border-bottom: 5px solid rgb(253, 54, 54);
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+    position: relative;
+    left: -40px;
+    top: -10px;
+}
+
+span {
+    color: rgb(253, 54, 54);
+}
+
+@font-face {
+    font-family: Astrolab;
+    src: url("../fonts/Astrolab.ttf");
+}
+
+@font-face {
+    font-family: Xolonium-Bold;
+    src: url("../fonts/Xolonium-Bold.ttf");
+}
+
+.active {
+    background: rgb(253, 54, 54);
+}
+
+#m2 img {
+    position: absolute;
+    top: 10px;
+    left: 92vw;
+
+}
+
+h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    display: block;
+    width: 200px;
+    height: 40px;
+    font-family: Xolonium-Bold;
+    background-color: #fb2525;
+    color: white;
+    font-size: 14px;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: black;
+    border-radius: 10px;
+}
+
+input {
+    font-family: Xolonium-Bold;
+}
+
+#bilde {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+
+#h1 h1 {
+    position: absolute;
+    left: 46vw;
+    top: 11vh;
+    font-size: 1.7em;
+    text-decoration: underline red;
+}
+
+article {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Lucida Sans';
+    line-height: 150%;
+    position: absolute;
+    border:red 2px solid;
+    width: 48vw;
+    min-height: 100px;
+    left: 46vw;
+    top: 21vh;
+    z-index: 99;
+}
+
+#main input {
+    width: 227px;
+    position: relative;
+    left: -50px;
+    border: solid 2px red;
+    padding: 5px;
+}

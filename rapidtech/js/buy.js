@@ -12,11 +12,11 @@ function buy() {
 
 
     function lagreLand(e) {
-        let priser = btnLagreLand.dataset.priser;
+        let frakt = btnLagreLand.dataset.frakt;
         let bestilling = inpLand.value;
-        let produktid = inpRegion.value;
+        let sum = inpRegion.value;
         let ref = database.ref("bestilling/" + bestilling);
-        ref.set({priser});
+        ref.set({sum, frakt});
         alert("Bestillingen din er registrert!");
     }
 

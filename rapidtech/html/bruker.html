@@ -50,11 +50,10 @@
 
         </ul>
     </div>
-
-    <div class="search-box-wrapper">
-        <input type="text" placeholder="Search..." class="search-box-input">
-        <button class="search-box-button">&#128269; </button>
-    </div>
+<div id="search">
+    <input type="text" placeholder="Søk.." id="find">
+</div>
+    <div id="resultat"></div>
 
     <div id="m2">
         <a href="bruker.html">
@@ -110,7 +109,7 @@
                 </div>
                 <div>
                     <div>
-                        <button data-priser="1001" type="button" id="lagreland">
+                        <button data-frakt="99,-" type="button" id="lagreland">
                             Kjøp</button>
                     </div>
                     <div></div>
@@ -123,7 +122,7 @@
             <div id="merk">
                 <h6>
                     <span>Merk!</span>
-                    På grunn av feil i kodingen, må kunden selv skrive inn bestillingsnummer (hva som helst) og summen av varene i handlekurven.
+                    På grunn av feil i kodingen, må kunden selv skrive inn bestillingsnummer (et tall mellom 1 - 9999) og summen av varene i handlekurven. Legg også til frakten som kommer på 99kr.
                 </h6>
                 <h6>
                     <span>OBS!</span>
@@ -136,7 +135,7 @@
         <script>
             setup();
             handlekurv();
-            buy();
+            buy(); 
         </script>
 
 </body>

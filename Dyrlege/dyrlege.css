@@ -41,3 +41,15 @@ article {
 .dyr {
     background-color: whitesmoke;
 }
+
+input {
+    position: absolute;
+    left: 50%;
+    top: 7%;
+}
+
+#resultat {
+    position: absolute;
+    left: 50%;
+    top: 17%;
+}

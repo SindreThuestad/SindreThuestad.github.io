@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/t1.css">
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+    <script src="../js/gta.js"></script>
+    <title>RapidTech</title>
+    <link rel="stylesheet" href="../css/search.css">
+    <link rel="icon" href="../bilder/icon.png">
+
+</head>
+
+<body>
+
+    <div id="meny">
+
+        <h1>
+            <a href="../index.html">
+                <span>Rapid</span>Tech</a>
+        </h1>
+        <ul>
+            <li>
+                <a href="pc.html">Gaming PC</a>
+            </li>
+            <li>
+                <a class="active" href="t1.html">Utstyr</a>
+                <ul>
+                    <li>
+                        <a href="headset.html">Headset</a>
+                    </li>
+                    <li>
+                        <a href="tastatur.html">Tastatur</a>
+                    </li>
+                    <li>
+                        <a href="mus.html">Mus</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="games.html">Spill</a>
+            </li>
+            <li>
+                <a href="omoss.html">Om Oss </a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div id="search">
+            <input type="text" placeholder="Søk.." id="find">
+        </div>
+            <div id="resultat"></div>
+
+    <div id="m2">
+        <a href="bruker.html">
+            <img src="../bilder/shoppingcart1.png" width="60px" height="50px">
+        </a>
+    </div>
+
+    <div id="bilde">
+        <img src="../bilder/MasterKeys.jpg" width="500px" height="400px">
+    </div>
+
+    <div id="h1">
+        <h1>Cooler Master MasterKeys Pro M RGB</h1>
+    </div>
+
+    <article>
+        <p>
+            <b>Det beste av begge verdener</b>
+
+        </p>
+        <p>
+            <i>Cooler Masters ingeniører gikk inn for å undersøke hvordan man effektivt utformer et tastatur med overlegne brytere og lyssterk LED-bakgrunnsbelysning. Vi tok ut innmaten og omdefinerte RGB-bakgrunnslyset ved å endre kretskortet (PCB) med små hull for å la lysdiodene sitte tett mot bryterne. Det betyr at vi fortsatt kunne bruke ekte Cherry MX-brytere med deres eksisterende RGB-deksler og større, mer lyssterke lysdioder.</i>
+        </p>
+        <b>Strålende belysning</b>
+        <br>Cooler Masters ingeniører gikk inn for å undersøke hvordan man effektivt utformer et tastatur med overlegne brytere og lyssterk LED-bakgrunnsbelysning. Vi tok ut innmaten og omdefinerte RGB-bakgrunnslyset ved å endre kretskortet (PCB) med små hull for å la lysdiodene sitte tett mot bryterne. Det betyr at vi fortsatt kunne bruke ekte Cherry MX-brytere med deres eksisterende RGB-deksler og større, mer lyssterke lysdioder.
+       <br><b>On-the-fly-system</b>
+       <br>MasterKeys Pro benytter behandlingskraften til ARM Cortex M3 for sitt avanserte On-the-fly-system. LED-belysning, repetisjonshastighetsjustering, multimedietaster, makroopptak, kombinert med fire profilnøkler, gjør det mulig å styre alle aspekter av tastaturet rett ved fingertuppene. Ingen bruk for alt + tab for å åpne opp programvaren. Forbli i spillet og fokuser på å beseire fiendene dine.
+    <br><b>Eksklusiv anti-ghosting-teknologi</b>
+    <br>Eksklusiv teknologi som motvirker vindusskygge med to teknologier kombinert i én. Vi har kombinert N-tasters og 6-tasters rollover, for å forsikre oss om at hvert tastetrykk gjenkjennes uansett hvor mange taster som trykkes. Hvis sju eller flere brytere trykkes ned, kobler det automatisk over til N-key rollover. Vær trygg på at uansett hvor raskt og voldsomt det blir, kan tastaturet håndtere det. Tastaturets funksjoner og makroer er kompatible med macOS-systemer (macOS bruker kun 6-tasters rollover).
+    
+    </article>
+
+    <div id="main">
+        <div>
+            <form>
+                <div>
+                    <div>Produktnavn</div>
+                    <div>
+                        <input id="produkter" type="text" value="Cooler Master MK Pro M">
+                    </div>
+                </div>
+                <div>
+                    <div>Pris</div>
+                    <div>
+                        <input id="region" type="text" value="1399,-">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <button data-priser="1399,-" type="button" id="lagreland">
+                            Legg til i handlekurven</button>
+                    </div>
+                    <div></div>
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+
+    <script>
+        setup();
+    </script>
+</body>
+
+</html>

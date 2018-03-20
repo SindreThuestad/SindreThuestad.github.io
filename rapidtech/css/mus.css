@@ -107,14 +107,14 @@ div h2 {
     position: relative;
     width: 210px;
     height: 150px;
-    background-image: url("../bilder/naga.jpg");
+    background-image: url("../bilder/lancehead.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0px;
 }
 
 #produkter div:nth-child(2) {
-    background-image: url("../bilder/g903.jpg");
+    background-image: url("../bilder/gpromus.jpg");
 }
 
 #produkter div:nth-child(3) {
@@ -130,7 +130,7 @@ div h2 {
 }
 
 #produkter div:nth-child(6) {
-    background-image: url("../bilder/gpromus.jpg");
+    background-image: url("../bilder/g903.jpg");
 }
 
 #produkter div:nth-child(7) {
@@ -209,7 +209,7 @@ article img:nth-child(4) {
     color: #fb2525;
 }
 
-#produkter div:nth-child(2):hover {
+#produkter div:nth-child(6):hover {
     background: rgb(253, 54, 54);
     background-image: url("../bilder/utsolgt.png");
     background-repeat: no-repeat;
@@ -217,7 +217,7 @@ article img:nth-child(4) {
     background-size: 150px;
 }
 
-#produkter div:nth-child(3):hover {
+#produkter div:nth-child(8):hover {
     background: rgb(253, 54, 54);
     background-image: url("../bilder/utsolgt.png");
     background-repeat: no-repeat;
@@ -249,7 +249,15 @@ article img:nth-child(4) {
     background-size: 150px;
 }
 
-#produkter div:nth-child(4):hover {
+#produkter div:nth-child(9):hover {
+    background: rgb(253, 54, 54);
+    background-image: url("../bilder/utsolgt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+}
+
+#produkter div:nth-child(11):hover {
     background: rgb(253, 54, 54);
     background-image: url("../bilder/utsolgt.png");
     background-repeat: no-repeat;
