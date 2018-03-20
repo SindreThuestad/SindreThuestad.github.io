@@ -1,25 +1,18 @@
-#main form div {
-    width: 18em;
-    display: grid;
-    grid-template-columns: 4fr 5fr;
-    grid-gap: 1em;
-    margin: 2px;
-}
 
-#main form div div {
-    white-space: nowrap;
-}
 
-#main {
+@font-face {
     font-family: Xolonium-Bold;
-    font-size: 1.2em;
-    position: absolute;
-    left: 50px;
-    top: 78vh;
-    width: 49vw;
+    src: url("../fonts/Xolonium-Bold.ttf");
 }
 
-h1 {
+body {
+    background: white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#meny h1 {
     position: absolute;
     top: -6px;
     left: 20px;
@@ -33,7 +26,6 @@ h1 {
     height: 10%;
     background: black;
     color: white;
-    left: 0;
 }
 
 ul {
@@ -88,10 +80,6 @@ span {
     src: url("../fonts/Astrolab.ttf");
 }
 
-@font-face {
-    font-family: Xolonium-Bold;
-    src: url("../fonts/Xolonium-Bold.ttf");
-}
 
 .active {
     background: rgb(253, 54, 54);
@@ -109,63 +97,30 @@ h1 a {
     color: white;
 }
 
-button {
-    display: block;
-    width: 200px;
-    height: 40px;
-    font-family: Xolonium-Bold;
-    background-color: #fb2525;
-    color: white;
-    font-size: 14px;
-    border: 2px solid white;
-    border-radius: 6px;
-}
-
-button:hover {
-    background-color: black;
-    border-radius: 10px;
-}
-
-input {
-    font-family: Xolonium-Bold;
-}
-
-#bilde {
+svg {
     position: absolute;
-    top: 140px;
-    left: 70px;
+    top: 15vh;
+    left: 91vw;
 }
 
-#h1 h1 {
+#overskrift2 h1 {
     position: absolute;
-    left: 46vw;
     top: 12vh;
-    font-size: 1.5em;
-    text-decoration: underline red;
+    left: 64vw;
+    font-family: Xolonium-Bold;
+    font-size: 2.8em;
 }
 
 article {
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: 'Lucida Sans';
-    line-height: 150%;
     position: absolute;
-    border:red 2px solid;
-    width: 48vw;
-    min-height: 100px;
-    left: 46vw;
-    top: 21vh;
-    z-index: 99;
+    width: 350px;
+    left: 20px;
+    top: 100px;
+    font-family: Xolonium-Bold;
+
 }
 
-#main input {
-    width: 227px;
-    position: relative;
-    left: -50px;
-    border: solid 2px red;
-    padding: 5px;
-}
-
-#resultat li {
-    background-color: #fb2525;
+article h1 {
+    color: #fb2525; 
+    font-size: 2em;
 }

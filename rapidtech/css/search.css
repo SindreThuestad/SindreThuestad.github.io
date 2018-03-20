@@ -1,4 +1,6 @@
 #search input {
+    padding-left: 5px;
+    font-family: Xolonium-Bold;
     position: absolute;
     left: 75%;
     top: 3%;
@@ -9,8 +11,27 @@
 }
 
 #resultat {
+    font-family: Xolonium-Bold;
+    font-size: 18px;
     position: absolute;
     left: 72%;
     top: 17%;
     z-index: 99;
+}
+
+#search input:focus {
+    border: black solid 2px
+}
+
+@font-face {
+    font-family: Xolonium-Bold;
+    src: url("../fonts/Xolonium-Bold.ttf");
+}
+
+#resultat li {
+    width: 320px;
+    position: relative;
+    left: -40px;
+    top: -60px;
+    background-color: #fb2525;
 }

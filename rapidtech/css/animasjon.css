@@ -1,0 +1,64 @@
+#shopicon {
+    position: absolute;
+    left: 89vw;
+    top: 72%;
+    z-index: 98;
+}
+
+#icon2 {
+    position: absolute;
+    left: 90.85vw;
+    top: 68%;
+    z-index: 98;
+}
+
+#animasjon {
+    position: absolute;
+    left: 52vw;
+    top: 32vh;
+    width: 45vw;
+    height: 700px;
+    background-image: url("../bilder/roads.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+} 
+
+#walk {
+    position: absolute;
+    z-index: 99;
+    width: 100px;
+    height: 100px;
+    left: -10px;
+    top: 80px;
+    transform: scaleX(-1);
+    background-image: url("../bilder/donald.png");
+    background-position-x: 0px;
+    background-position-y: 0px;
+    animation: legs 1000ms steps(6) infinite,
+               walk 10s linear;
+    animation-fill-mode: forwards;
+
+}
+
+
+@keyframes legs {
+    100% { background-position-x: -600px; }
+}
+
+@keyframes walk {
+    0% { left: -35px; top: 30px; background-position-y: 100px; }
+    30% { left: 440px; top: 30px; background-position-y: 100px; }
+    30.01% { left: 440px; top: 30px; background-position-y: 0px; }
+    40% { left: 440px; top: 160px; background-position-y: 0px;}
+    40.01% { left: 440px; top: 160px; background-position-y: 300px; }
+    60% { left: 100px; top: 160px; background-position-y: 300px; }
+    60.01% { left: 100px; top: 160px; background-position-y: 0px; }
+    70% { left: 100px; top: 315px; background-position-y: 0px; }
+    70.01% { left: 100px; top: 315px; background-position-y: 100px; }
+    100% { left: 505px; top: 307px; background-position-y: 100px; }
+    
+
+}
+
+
