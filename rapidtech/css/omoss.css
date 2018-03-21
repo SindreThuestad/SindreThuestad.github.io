@@ -124,3 +124,33 @@ article h1 {
     color: #fb2525; 
     font-size: 2em;
 }
+
+#article2 {
+    position: absolute;
+    width: 350px;
+    left: 425px;
+    top: 106px;
+    font-family: Xolonium-Bold;
+
+}
+
+#article2 h1 {
+    color: #fb2525; 
+    font-size: 2em;
+}
+
+#article2 a {
+    text-decoration: none;
+    color: black;
+}
+
+#article2 span {
+    position: relative;
+    left: 20px;
+    top: -20px;
+    color: black;
+}
+
+#article2 span:hover {
+    color: #fb2525;
+}
