@@ -1,0 +1,142 @@
+body {
+    background-color: rgba(0, 0, 0, 0.648);
+}
+
+h1 {
+    position: absolute;
+    left: 73vw;
+    font-family: Astrolab;
+    color: rgb(100, 255, 255);
+    font-size: 1.8em;
+}
+
+h2 {
+    position: absolute;
+    left: 76vw;
+    top: 14vh;
+    font-family: Astrolab;
+    color: aqua;
+    font-size: 1.2em;
+}
+
+#shopicon {
+    position: absolute;
+    left: 58.2vw;
+    top: 63%;
+    z-index: 98;
+
+}
+
+#icon {
+    position: absolute;
+    left: 79vw;
+    top: 55vh;
+    background-image: url("../bilder/wallzzz.png");
+    background-size: contain;
+    width: 180px;
+    height: 180px;
+}
+
+#icon2 {
+    position: absolute;
+    left: 61.5vw;
+    top: 57%;
+    z-index: 99 ;
+}
+
+#animasjon {
+    position: absolute;
+    left: 1vw;
+    top: 1vh;
+    width: 70vw;
+    height: 98vh;
+    background-image: url("../bilder/roads.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+} 
+
+#walk {
+    position: absolute;
+    z-index: 99;
+    width: 100px;
+    height: 100px;
+    left: -10px;
+    top: 80px;
+    transform: scaleX(-1);
+    background-image: url("../bilder/donald.png");
+    background-position-x: 0px;
+    background-position-y: 0px;
+    animation: legs 1000ms steps(6) infinite,
+               walk 10s linear;
+    animation-fill-mode: forwards;
+
+}
+
+button {
+    position: relative;
+    left: 73.7vw;
+    top: 33vh;
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 1em;
+    background-color: aqua;
+    background-size: 20px 20px;
+    border: 1px solid #555;
+    color: white;
+    transition: all 0.3s ease;
+    font-family: Astrolab;
+  }
+  button:after {
+    position: absolute;
+    font-size: 2em;
+    top: 39%;
+    left: 260px;
+    right: 0.6em;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    content: "»";
+    opacity: 0;
+    transition: all 0.3s ease;
+    color: white;
+  }
+  button:hover {
+    padding: 20px 60px 20px 20px;
+  }
+ button:hover:after {
+    right: 1.2em;
+    opacity: 1;
+  }
+
+  
+
+@keyframes legs {
+    100% { background-position-x: -600px; }
+}
+
+@keyframes walk {
+    0% { left: -35px; top: 70px; background-position-y: 100px; }
+    30% { left: 720px; top: 70px; background-position-y: 100px; }
+    30.01% { left: 720px; top: 70px; background-position-y: 0px; }
+    40% { left: 720px; top: 315px; background-position-y: 0px;}
+    40.01% { left: 720px; top: 315px; background-position-y: 300px; }
+    60% { left: 150px; top: 315px; background-position-y: 300px; }
+    60.01% { left: 150px; top: 315px; background-position-y: 0px; }
+    70% { left: 150px; top: 520px; background-position-y: 0px; }
+    70.01% { left: 150px; top: 520px; background-position-y: 100px; }
+    100% { left: 820px; top: 520px; background-position-y: 100px; }
+    
+
+}
+
+@font-face {
+    font-family: Astrolab;
+    src: url("../fonts/Astrolab.ttf");
+}
+
+@font-face {
+    font-family: Xolonium-Bold;
+    src: url("../fontsXolonium-Bold.ttf");
+}
+
+

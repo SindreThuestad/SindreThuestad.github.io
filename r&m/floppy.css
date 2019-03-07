@@ -1,0 +1,59 @@
+#bird {
+    background-image: url("flappy4.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 70px;
+    position: absolute;
+    background-size: 100px 100px;
+    left: calc(50vw - 50px);
+    top: 200px;
+    
+}
+
+#sky {
+    background: linear-gradient(rgb(93, 210, 214),rgb(106, 106, 219));
+    height: 97vh;
+}
+
+#above,
+#below {
+    position: absolute;
+    width: 30px;
+    height: 150px;
+    background-color: rgb(94, 255, 0);
+    border: solid gray 1px;
+    left: 400px;
+
+}
+
+#above {
+    top: 0px;
+}
+
+#below {
+    bottom: 0px;
+}
+
+#poeng {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 150px;
+    height: 1.6em;
+    border: solid gray 1px;
+    background-color: thistle;
+}
+
+button {
+    position: absolute;
+    left: 2vw;
+    top: 3vh;
+    display: block;
+    background-color: rgb(59, 238, 27);
+    color: rgb(0, 0, 0);
+    width: 130px;
+    height: 40px;
+    border: solid 1px black;
+}
+

@@ -1,0 +1,16 @@
+#main {
+    background-color: rgb(215, 215, 255);
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100%;
+}
+
+#frame {
+    position: absolute;
+    left: 10vw;
+    background-color: white;
+    width: 80vw;
+    min-height: 100%;
+}

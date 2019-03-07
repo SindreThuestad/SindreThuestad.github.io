@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+canvas {
+    position: absolute;
+    cursor: none;
+    background: #eee;
+    display: block;
+    margin: auto;
+    width: 650px;   
+    top: 100px;
+    left: 100px;
+}
+
+h1 {
+    top: 65px;
+    position: absolute;
+    left: 67vw;
+    font-size: 3.5em;   
+    font-family: Xolonium-Bold;
+    color: white;
+}
+
+h1 > span {
+    font-family: Astrolab;
+    color: rgb(221, 58, 167);
+}
+
+@font-face {
+    font-family: Astrolab;
+    src: url("../fonts/Astrolab.ttf");
+}
+
+@font-face {
+    font-family: Xolonium-Bold;
+    src: url("../fonts/Xolonium-Bold.ttf");
+}
+
+#messages {
+    position: absolute;
+    opacity: 1;
+    left: 67.2vw;
+    top: 40vh;
+    width: 350px;
+    height: 100px;
+    font-family: Xolonium-Bold;
+    color: rgb(255, 112, 207);
+    animation: messages 4s forwards;
+}
+
+span#bugs {
+    font-style: italic;
+    color: white;
+}
+
+@keyframes messages {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.6;
+    }
+    21% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

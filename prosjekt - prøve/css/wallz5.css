@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+canvas {
+    position: absolute;
+    cursor: none;
+    background: #eee;
+    display: block;
+    margin: auto;
+    width: 650px;   
+    top: 100px;
+    left: 100px;
+}
+
+h1 {
+    top: 65px;
+    position: absolute;
+    left: 67vw;
+    font-size: 3.5em;   
+    font-family: Xolonium-Bold;
+    color: white;
+}
+
+h1 > span {
+    font-family: Astrolab;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+@font-face {
+    font-family: Astrolab;
+    src: url("../fonts/Astrolab.ttf");
+}
+
+@font-face {
+    font-family: Xolonium-Bold;
+    src: url("../fonts/Xolonium-Bold.ttf");
+}
+
+#messages {
+    position: absolute;
+    opacity: 1;
+    left: 67.2vw;
+    top: 48vh;
+    width: 350px;
+    height: 100px;
+    font-family: Xolonium-Bold;
+    color: black;
+    animation: messages 4s forwards;
+}
+
+span#bugs {
+    font-style: italic;
+    color: white;
+    font-size: 1em;
+}
+
+@keyframes messages {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.6;
+    }
+    21% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+span:nth-child(5) {
+    color: yellow;
+    font-size: 0.6em;
+}
+
+span:nth-child(4) {
+    color: orange;
+    font-size: 0.6em;
+}
+span:nth-child(3) {
+    color: red;
+    font-size: 0.6em;
+}
+span:nth-child(6) {
+    color: rgb(65, 241, 65);
+    font-size: 0.6em;
+}
+span:nth-child(7) {
+    color: rgb(119, 189, 255);
+    font-size: 0.6em;
+}
+span:nth-child(8) {
+    color: blue;
+    font-size: 0.6em;
+}
+span:nth-child(9) {
+    color: blueviolet;
+    font-size: 0.6em;
+}
+span:nth-child(10) {
+    color: red;
+    font-size: 0.6em;
+}
+span:nth-child(11) {
+    color: orange;
+    font-size: 0.6em;
+}
+span:nth-child(12) {
+    color: yellow;
+    font-size: 0.6em;
+}

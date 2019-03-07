@@ -1,0 +1,41 @@
+#main {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+   
+} 
+
+#walk {
+    position: absolute;
+    width: 125px;
+    height: 162px;
+    left: -10px;
+    top: 80px;
+    transform: scaleX(-1);
+    background-image: url("ricky.png");
+    background-position-x: 0px;
+    background-position-y: 0px;
+    animation: legs 500ms steps(4) infinite,
+               walk 8s linear;
+    animation-fill-mode: forwards;
+
+}
+
+
+
+@keyframes legs {
+    100% { background-position-x: -515px; }
+}
+
+@keyframes walk {
+    0% { left: 100px; top: 80px; background-position-y: 325px; }
+    100% { left: 800px; top: 80px; background-position-y: 325px; }
+   
+    
+
+}
+
+
